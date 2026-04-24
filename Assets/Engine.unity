@@ -27,7 +27,6 @@ GameObject:
   - component: {fileID: 13}
   - component: {fileID: 14}
   - component: {fileID: 15}
-  - component: {fileID: 16}
   - component: {fileID: 17}
   m_Layer: 0
   m_Name: Renderite.Bootstrap
@@ -271,18 +270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc517088cbdbb6c47a54435718bdfc85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef4bffeda13d7a748973ff9204401c07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,7 +335,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 0
-  m_HDR: 1
+  m_HDR: 0
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -381,12 +368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97adfc5343e54e84cb4733407aa721e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1657455073 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4821248070849621425, guid: 14cd4328b6ce06c47b9cc9d4d76e78ee,
-    type: 3}
-  m_PrefabInstance: {fileID: 4821248071198530682}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4821248071198530682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -399,16 +380,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Splash
       objectReference: {fileID: 0}
-    - target: {fileID: 4821248072431193492, guid: 14cd4328b6ce06c47b9cc9d4d76e78ee,
-        type: 3}
-      propertyPath: SplashRoot
-      value: 
-      objectReference: {fileID: 1657455073}
-    - target: {fileID: 4821248072431193492, guid: 14cd4328b6ce06c47b9cc9d4d76e78ee,
-        type: 3}
-      propertyPath: SplashMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 7d20ac1ec8e30ff46bf27bc3ada1523d, type: 2}
     - target: {fileID: 4821248072431193492, guid: 14cd4328b6ce06c47b9cc9d4d76e78ee,
         type: 3}
       propertyPath: TotalFixedPhaseCount

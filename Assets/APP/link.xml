@@ -1,4 +1,0 @@
-<linker>
-	<assembly fullname="Renderite.Shared" preserve="all"/>
-	<assembly fullname="Renderite.Unity" preserve="all"/>
-</linker>
