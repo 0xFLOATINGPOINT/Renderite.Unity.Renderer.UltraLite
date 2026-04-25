@@ -829,7 +829,7 @@ PlayerSettings:
     iPhone: 1
   scriptingBackend:
     Android: 0
-    Standalone: 0
+    Standalone: 1
     WebGL: 1
     WebPlayer: 0
     Windows Store Apps: 1
@@ -838,7 +838,7 @@ PlayerSettings:
     Android: 1
     Standalone: 1
   managedStrippingLevel:
-    Standalone: 0
+    Standalone: 1
   incrementalIl2cppBuild:
     iPhone: 1
   allowUnsafeCode: 1
